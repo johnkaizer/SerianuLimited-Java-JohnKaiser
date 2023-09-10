@@ -1,0 +1,7 @@
+CREATE TABLE `slack_config`
+(
+    ID         INT           NOT NULL AUTO_INCREMENT,
+    CHANNEL_ID VARCHAR(100)  NOT NULL,
+    SLACK_URl  VARCHAR(1000) NOT NULL,
+    PRIMARY KEY (`ID`)
+);
